@@ -189,6 +189,9 @@ class ListService {
                 if (!list || list.userId !== req.user.id) {
                     return res.status(404).json({ success: false, message: 'Lista não encontrada' });
                 }
+                if (list.status === 'checked_out') {
+                    return res.status(400).json({ success: false, message: 'Não é possível adicionar itens a uma lista finalizada. Reabra a lista para adicionar itens.' });
+                }
                 // Buscar dados do item no Item Service
                 const itemServiceUrl = process.env.ITEM_SERVICE_URL || 'http://localhost:3002';
                 const itemResp = await axios.get(`${itemServiceUrl}/items/${itemId}`);

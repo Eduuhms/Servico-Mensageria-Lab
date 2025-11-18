@@ -289,15 +289,45 @@
         "purchased": false,
         "notes": "Comprar promoção",
         "addedAt": "2025-11-18T14:50:00.703Z"
+      },
+      {
+        "itemId": "1a1a1a1a-0001-0001-0001-000000000001",
+        "itemName": "Arroz Branco",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 5.99,
+        "purchased": false,
+        "notes": "Comprar promoção",
+        "addedAt": "2025-11-18T15:06:14.703Z"
+      },
+      {
+        "itemId": "1a1a1a1a-0001-0001-0001-000000000001",
+        "itemName": "Arroz Branco",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 5.99,
+        "purchased": false,
+        "notes": "Comprar promoção",
+        "addedAt": "2025-11-18T15:06:57.704Z"
+      },
+      {
+        "itemId": "1a1a1a1a-0001-0001-0001-000000000001",
+        "itemName": "Arroz Branco",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 5.99,
+        "purchased": false,
+        "notes": "Comprar promoção",
+        "addedAt": "2025-11-18T15:07:02.787Z"
       }
     ],
     "summary": {
-      "totalItems": 1,
+      "totalItems": 4,
       "purchasedItems": 0,
-      "estimatedTotal": 11.98
+      "estimatedTotal": 47.92
     },
     "createdAt": "2025-11-18T14:48:58.899Z",
-    "updatedAt": "2025-11-18T14:50:12.532Z"
+    "updatedAt": "2025-11-18T15:07:02.787Z"
   },
   {
     "id": "1bb602e8-0e3f-4965-a627-964980ba8903",
