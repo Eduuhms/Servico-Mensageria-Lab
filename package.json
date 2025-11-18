@@ -18,6 +18,8 @@
     "health": "curl -s http://localhost:3000/health",
     "install:all": "npm install && cd services/user-service && npm install && cd ../list-service && npm install && cd ../item-service && npm install && cd ../../api-gateway && npm install",
     "clean": "rm -rf node_modules services/*/node_modules api-gateway/node_modules",
+    "worker:notification": "node workers/notificationWorker.js",
+    "worker:analytics": "node workers/analyticsWorker.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -41,8 +43,11 @@
   },
   "dependencies": {
     "axios": "^1.6.0",
-    "fs-extra": "^11.1.0",
-    "uuid": "^9.0.0"
+    "fs-extra": "^11.3.2",
+    "uuid": "^9.0.0",
+    "amqplib": "^0.10.3"
+    ,
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "concurrently": "^7.6.0"

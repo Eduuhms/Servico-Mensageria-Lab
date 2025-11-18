@@ -94,5 +94,21 @@
     "status": "active",
     "createdAt": "2025-09-21T00:39:32.179Z",
     "updatedAt": "2025-09-21T00:39:32.495Z"
+  },
+  {
+    "id": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "email": "edu@email.com",
+    "username": "edu",
+    "password": "$2a$12$jMJQpPh5E2vQO3jeZTjy4Ohd5HmVN0bDY7afW1R.d.JJ/ZqfbPOry",
+    "firstName": "Edu",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Loja Teste",
+      "currency": "BRL"
+    },
+    "role": "user",
+    "status": "active",
+    "createdAt": "2025-11-18T14:39:43.159Z",
+    "updatedAt": "2025-11-18T14:40:10.471Z"
   }
 ]

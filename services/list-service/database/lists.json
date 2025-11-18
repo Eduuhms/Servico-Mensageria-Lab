@@ -236,5 +236,97 @@
     },
     "createdAt": "2025-09-21T00:39:32.637Z",
     "updatedAt": "2025-09-21T00:39:32.697Z"
+  },
+  {
+    "id": "38d44a0d-5605-4042-a3dd-bf73dd2acc52",
+    "userId": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "name": "Minha Lista",
+    "description": "Lista de compras do mês",
+    "status": "checked_out",
+    "items": [
+      {
+        "itemId": "1a1a1a1a-0001-0001-0001-000000000001",
+        "itemName": "Arroz Branco",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 5.99,
+        "purchased": false,
+        "notes": "Comprar promoção",
+        "addedAt": "2025-11-18T14:42:07.924Z"
+      },
+      {
+        "itemId": "1a1a1a1a-0001-0001-0001-000000000001",
+        "itemName": "Arroz Branco",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 5.99,
+        "purchased": false,
+        "notes": "Comprar promoção",
+        "addedAt": "2025-11-18T14:49:32.107Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 2,
+      "purchasedItems": 0,
+      "estimatedTotal": 23.96
+    },
+    "createdAt": "2025-11-18T14:40:33.123Z",
+    "updatedAt": "2025-11-18T14:49:32.107Z"
+  },
+  {
+    "id": "9759a19d-d759-41df-b697-82c57bc04439",
+    "userId": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "name": "Minha Lista",
+    "description": "Lista de compras do mês",
+    "status": "checked_out",
+    "items": [
+      {
+        "itemId": "1a1a1a1a-0001-0001-0001-000000000001",
+        "itemName": "Arroz Branco",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 5.99,
+        "purchased": false,
+        "notes": "Comprar promoção",
+        "addedAt": "2025-11-18T14:50:00.703Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 11.98
+    },
+    "createdAt": "2025-11-18T14:48:58.899Z",
+    "updatedAt": "2025-11-18T14:50:12.532Z"
+  },
+  {
+    "id": "1bb602e8-0e3f-4965-a627-964980ba8903",
+    "userId": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "name": "Minha Lista",
+    "description": "Lista de compras do mês",
+    "status": "checked_out",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-11-18T14:53:20.963Z",
+    "updatedAt": "2025-11-18T14:53:31.665Z"
+  },
+  {
+    "id": "8bd438c2-25bb-4aa4-92fd-344ff014bedd",
+    "userId": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "name": "Minha Lista",
+    "description": "Lista de compras do mês",
+    "status": "checked_out",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-11-18T14:54:35.637Z",
+    "updatedAt": "2025-11-18T14:54:45.972Z"
   }
 ]
