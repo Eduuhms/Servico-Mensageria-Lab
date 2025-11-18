@@ -1,0 +1,193 @@
+{
+  "info": {
+    "name": "List Service",
+    "_postman_id": "c1d2e3f4-5678-90ab-cdef-1234567890ab",
+    "description": "Coleção para testar o List Service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:3003/health",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3003",
+          "path": ["health"]
+        }
+      }
+    },
+    {
+      "name": "Criar Nova Lista",
+      "request": {
+        "method": "POST",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"},
+          {"key": "Authorization", "value": "Bearer {{token}}"}
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Minha Lista\",\n  \"description\": \"Lista de compras do mês\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3003/lists",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3003",
+          "path": ["lists"]
+        }
+      }
+    },
+    {
+      "name": "Listar Listas do Usuário",
+      "request": {
+        "method": "GET",
+        "header": [
+          {"key": "Authorization", "value": "Bearer {{token}}"}
+        ],
+        "url": {
+          "raw": "http://localhost:3003/lists",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3003",
+          "path": ["lists"]
+        }
+      }
+    },
+    {
+      "name": "Buscar Lista Específica",
+      "request": {
+        "method": "GET",
+        "header": [
+          {"key": "Authorization", "value": "Bearer {{token}}"}
+        ],
+        "url": {
+          "raw": "http://localhost:3003/lists/{{listId}}",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3003",
+          "path": ["lists", "{{listId}}"]
+        }
+      }
+    },
+    {
+      "name": "Atualizar Lista",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"},
+          {"key": "Authorization", "value": "Bearer {{token}}"}
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Lista Atualizada\",\n  \"description\": \"Nova descrição\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3003/lists/{{listId}}",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3003",
+          "path": ["lists", "{{listId}}"]
+        }
+      }
+    },
+    {
+      "name": "Deletar Lista",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {"key": "Authorization", "value": "Bearer {{token}}"}
+        ],
+        "url": {
+          "raw": "http://localhost:3003/lists/{{listId}}",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3003",
+          "path": ["lists", "{{listId}}"]
+        }
+      }
+    },
+    {
+      "name": "Adicionar Item à Lista",
+      "request": {
+        "method": "POST",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"},
+          {"key": "Authorization", "value": "Bearer {{token}}"}
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"itemId\": \"{{itemId}}\",\n  \"quantity\": 2,\n  \"notes\": \"Comprar promoção\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3003/lists/{{listId}}/items",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3003",
+          "path": ["lists", "{{listId}}", "items"]
+        }
+      }
+    },
+    {
+      "name": "Atualizar Item na Lista",
+      "request": {
+        "method": "PUT",
+        "header": [
+          {"key": "Content-Type", "value": "application/json"},
+          {"key": "Authorization", "value": "Bearer {{token}}"}
+        ],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"quantity\": 3,\n  \"purchased\": true,\n  \"notes\": \"Já comprei metade\"\n}"
+        },
+        "url": {
+          "raw": "http://localhost:3003/lists/{{listId}}/items/{{itemId}}",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3003",
+          "path": ["lists", "{{listId}}", "items", "{{itemId}}"]
+        }
+      }
+    },
+    {
+      "name": "Remover Item da Lista",
+      "request": {
+        "method": "DELETE",
+        "header": [
+          {"key": "Authorization", "value": "Bearer {{token}}"}
+        ],
+        "url": {
+          "raw": "http://localhost:3003/lists/{{listId}}/items/{{itemId}}",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3003",
+          "path": ["lists", "{{listId}}", "items", "{{itemId}}"]
+        }
+      }
+    },
+    {
+      "name": "Resumo da Lista",
+      "request": {
+        "method": "GET",
+        "header": [
+          {"key": "Authorization", "value": "Bearer {{token}}"}
+        ],
+        "url": {
+          "raw": "http://localhost:3003/lists/{{listId}}/summary",
+          "protocol": "http",
+          "host": ["localhost"],
+          "port": "3003",
+          "path": ["lists", "{{listId}}", "summary"]
+        }
+      }
+    }
+  ],
+  "variable": [
+    {"key": "token", "value": ""},
+    {"key": "listId", "value": ""},
+    {"key": "itemId", "value": ""}
+  ]
+}

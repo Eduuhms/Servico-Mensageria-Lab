@@ -1,0 +1,98 @@
+[
+  {
+    "id": "8679387a-c317-4a69-bdb0-8a1454f3c710",
+    "email": "admin@shopping.com",
+    "username": "admin",
+    "password": "$2a$12$3WljQ/RPWd7V058dPQ3Rf..DxLPziT73wcc0pK/r9Uih4B0Oj84kG",
+    "firstName": "Administrador",
+    "lastName": "Sistema",
+    "role": "admin",
+    "status": "active",
+    "preferences": {
+      "defaultStore": "Supermercado Central",
+      "currency": "BRL"
+    },
+    "createdAt": "2025-09-17T16:56:41.836Z",
+    "updatedAt": "2025-09-17T16:56:41.837Z"
+  },
+  {
+    "id": "09a4ca94-56e1-407c-8916-d5707ddc30d5",
+    "email": "test1758128261642@email.com",
+    "username": "user1758128261642",
+    "password": "$2a$12$xbqBtY954Y0s0HUbScG7FuTqjI1pq2x9gKhIKlLzBXyYGUYt0Khjq",
+    "firstName": "Test",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Loja Teste",
+      "currency": "BRL"
+    },
+    "role": "user",
+    "status": "active",
+    "createdAt": "2025-09-17T16:57:41.991Z",
+    "updatedAt": "2025-09-17T16:57:41.992Z"
+  },
+  {
+    "id": "c3dffdd8-1d26-455a-9da8-b731aee43b4b",
+    "email": "test1758128434541@email.com",
+    "username": "user1758128434541",
+    "password": "$2a$12$CuBfkkwrwRDX.FYNbbUvG.xiqtVVlNgyCPt6MXB34xfbPNyiDsrr6",
+    "firstName": "Test",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Loja Teste",
+      "currency": "BRL"
+    },
+    "role": "user",
+    "status": "active",
+    "createdAt": "2025-09-17T17:00:34.829Z",
+    "updatedAt": "2025-09-17T17:00:34.829Z"
+  },
+  {
+    "id": "2a6a9f74-6cb7-4ec5-ae0b-2d0c7817f3b2",
+    "email": "test1758128454931@email.com",
+    "username": "user1758128454931",
+    "password": "$2a$12$4I3qXAODB12iB3YLQchIDe2jowAEUb838fb9aZSzQkXQP4Dyqx1ae",
+    "firstName": "Test",
+    "lastName": "User",
+    "preferences": {
+      "defaultStore": "Loja Teste",
+      "currency": "BRL"
+    },
+    "role": "user",
+    "status": "active",
+    "createdAt": "2025-09-17T17:00:55.250Z",
+    "updatedAt": "2025-09-17T17:00:55.601Z"
+  },
+  {
+    "id": "9aefc276-e738-4b31-af2e-787a1ad39395",
+    "email": "test@email.com",
+    "username": "testuser",
+    "password": "$2a$12$CEKPNlaau.cYK5Rn84hqd.6z0ZFQso86/im.eKsTwq4ieBai69lHS",
+    "firstName": "NovoNome",
+    "lastName": "NovoSobrenome",
+    "preferences": {
+      "defaultStore": "Loja Teste",
+      "currency": "BRL"
+    },
+    "role": "user",
+    "status": "active",
+    "createdAt": "2025-09-17T17:10:57.783Z",
+    "updatedAt": "2025-09-20T23:05:42.974Z"
+  },
+  {
+    "id": "cb23c7e0-2eb1-41e4-aa72-81d1fba608e9",
+    "email": "cliente@demo.com",
+    "username": "cliente",
+    "password": "$2a$12$Z5c33Et./dWBMW7rsF4QFOeCrjLqPlPap0ZFPe4F0iTkKqV7231Uy",
+    "firstName": "Demo",
+    "lastName": "Cliente",
+    "preferences": {
+      "defaultStore": "",
+      "currency": "BRL"
+    },
+    "role": "user",
+    "status": "active",
+    "createdAt": "2025-09-21T00:39:32.179Z",
+    "updatedAt": "2025-09-21T00:39:32.495Z"
+  }
+]
