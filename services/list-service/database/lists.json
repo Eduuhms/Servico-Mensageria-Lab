@@ -358,5 +358,121 @@
     },
     "createdAt": "2025-11-18T14:54:35.637Z",
     "updatedAt": "2025-11-18T14:54:45.972Z"
+  },
+  {
+    "id": "66f5b2f8-4bd7-4725-979a-e51447bbebe9",
+    "userId": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "name": "Minha Lista",
+    "description": "Lista de compras do mês",
+    "status": "checked_out",
+    "items": [
+      {
+        "itemId": "1a1a1a1a-0001-0001-0001-000000000001",
+        "itemName": "Arroz Branco",
+        "quantity": 2,
+        "unit": "kg",
+        "estimatedPrice": 5.99,
+        "purchased": false,
+        "notes": "Comprar promoção",
+        "addedAt": "2025-11-23T15:13:19.237Z"
+      }
+    ],
+    "summary": {
+      "totalItems": 1,
+      "purchasedItems": 0,
+      "estimatedTotal": 11.98
+    },
+    "createdAt": "2025-11-23T15:12:20.537Z",
+    "updatedAt": "2025-11-23T15:13:50.811Z"
+  },
+  {
+    "id": "a299f13d-befe-4ea1-b57c-d9661b4631fe",
+    "userId": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "name": "Minha Lista",
+    "description": "Lista de compras do mês",
+    "status": "checked_out",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-11-23T15:14:27.492Z",
+    "updatedAt": "2025-11-23T15:15:11.500Z"
+  },
+  {
+    "id": "40ed0ab4-7f6f-4d5d-8a91-307e7817bf09",
+    "userId": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "name": "Minha Lista",
+    "description": "Lista de compras do mês",
+    "status": "checked_out",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-11-23T15:15:31.588Z",
+    "updatedAt": "2025-11-23T15:15:40.960Z"
+  },
+  {
+    "id": "40216004-13c6-4837-a68e-5424b36db2b4",
+    "userId": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "name": "Minha Lista",
+    "description": "Lista de compras do mês",
+    "status": "checked_out",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-11-23T15:20:43.197Z",
+    "updatedAt": "2025-11-23T15:20:51.809Z"
+  },
+  {
+    "id": "94100839-1b90-4fe3-b274-f7fdeeaa9bb7",
+    "userId": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "name": "Minha Lista",
+    "description": "Lista de compras do mês",
+    "status": "checked_out",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-11-23T15:23:42.312Z",
+    "updatedAt": "2025-11-23T15:24:00.505Z"
+  },
+  {
+    "id": "4bdb852b-746b-4566-86dd-3e84cf3ace6a",
+    "userId": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "name": "Minha Lista",
+    "description": "Lista de compras do mês",
+    "status": "checked_out",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-11-23T15:24:17.042Z",
+    "updatedAt": "2025-11-23T15:24:26.524Z"
+  },
+  {
+    "id": "329af964-b092-436c-b5a9-43e3dc158bee",
+    "userId": "f2c0a95f-2f6f-4260-b4eb-6d17ab95727f",
+    "name": "Minha Lista",
+    "description": "Lista de compras do mês",
+    "status": "checked_out",
+    "items": [],
+    "summary": {
+      "totalItems": 0,
+      "purchasedItems": 0,
+      "estimatedTotal": 0
+    },
+    "createdAt": "2025-11-23T15:25:11.465Z",
+    "updatedAt": "2025-11-23T15:25:18.999Z"
   }
 ]

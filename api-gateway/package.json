@@ -45,7 +45,8 @@
     ],
     "ext": "js,json",
     "ignore": [
-      "node_modules/"
+      "node_modules/",
+      "../shared/services-registry.json"
     ]
   },
   "environment": {
